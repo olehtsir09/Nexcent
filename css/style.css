@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    font-family: Inter;
+}
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_logo {
+    display: flex;
+    flex-direction: row;
+}
+.header_logo_p {
+    font-weight: 800;
+}
+.header_logo_img {
+    margin-right: 10px;
+}
+.menu_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu_header_div_ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.menu_header_div_ul_li {
+    margin-left: 50px;
+    list-style: none;
+}
+.section1 {
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #f5f7fa;
+    margin-bottom: 50px;
+}
+.section1_div {
+    align-items: center;
+}
+.menu_header_button {
+    border-radius: 8px;
+    border: none;
+    background: #4caf4f;
+    width: 180px;
+    height: 35px;
+}
+.menu_header_button:hover {
+    background: #388e3b;
+    cursor: pointer;
+}
+.menu_header_button_a {
+    color: #fff;
+}
+.clients {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.clients_text {
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.clients_text_h1 {
+    color: #4d4d4d;
+    font-size: 35px;
+}
+.clients_text_p {
+    color: #717171;
+}
+.clients_list {
+    display: flex;
+    justify-content: space-around;
+}
+.community {
+    margin-bottom: 80px;
+}
+.community_text {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.community_text_h1_1 {
+    font-size: 35px;
+    color: #4d4d4d;
+}
+.community_text_h1_2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #4d4d4d;
+}
+.community_text_p {
+    color: #717171;
+}
+.community_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.community_image_1,
+.community_image_2,
+.community_image_3 {
+    width: 333px;
+    text-align: center;
+}
+.community_image_1_img,
+.community_image_2_img,
+.community_image_3_img {
+    margin-bottom: 20px;
+}
+.community_image_1_h1,
+.community_image_2_h1,
+.community_image_3_h1 {
+    color: #4d4d4d;
+    font-size: 27px;
+}
+.community_image_1_h1_2,
+.community_image_2_h1_2,
+.community_image_3_h1_2 {
+    margin-bottom: 20px;
+    color: #4d4d4d;
+    font-size: 27px;
+}
+.unlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+.unlock_img{
+    margin-right: 150px;
+}
+.unlock_text {
+    width: 550px;
+}
+.unlock_text_h1_1{
+    font-size: 35px;
+    color: #4D4D4D;
+}
+.unlock_text_h1_2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #4D4D4D;
+}
+.unlock_text_p{
+    margin-bottom: 30px;
+    color: #717171;
+}
+.unlock_text_btn{
+    width: 150px;
+    height: 50px;
+    background: #4caf4f;
+    border: none;
+    border-radius: 8px;
+}
+.unlock_text_btn_a{
+    text-decoration: none;
+    color: #FFF;
+}
+.unlock_text_btn:hover{
+    cursor: pointer;
+    background: #388e3b;
+}
+.achievements{
+    height: 300px;
+    align-items: center;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.achievements_counts{
+    display: flex;
+    flex-direction: column;
+}
+.achievements_counts_1, .achievements_counts_2{
+    display: flex;
+    flex-direction: row;
+
+}
+.achievements_counts_1{
+    margin-bottom: 35px;
+}
+.achievements_text_h1_2{
+    margin-bottom: 10px;
+}
+.achievements_text_p{
+    color: #717171;
+}
+.achievements_counts_1_1, .achievements_counts_2_1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+}
+.achievements_counts_2_2, .achievements_counts_1_2{
+    display: flex;
+    flex-direction: row;
+}
+.achievements_counts_1_1_text_p, .achievements_counts_1_2_text_p, .achievements_counts_2_1_text_p, .achievements_counts_2_2_text_p{
+    color: #717171
+}
+.design {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+}
+.design_img{
+    margin-right: 150px;
+}
+.design_text {
+    width: 550px;
+}
+.design_text_h1_1{
+    font-size: 35px;
+    color: #4D4D4D;
+}
+.design_text_h1_2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #4D4D4D;
+}
+.design_text_p{
+    margin-bottom: 30px;
+    color: #717171;
+}
+.design_text_btn{
+    width: 150px;
+    height: 50px;
+    background: #4caf4f;
+    border: none;
+    border-radius: 8px;
+}
+.design_text_btn_a{
+    text-decoration: none;
+    color: #FFF;
+}
+.design_text_btn:hover{
+    cursor: pointer;
+    background: #388e3b;
+}
+.costumer{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f5f7fa;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.costumer_text{
+    margin-right: 160px;
+    width: 700px;
+}
+.costumer_text_about_p_1{
+    color: #717171;
+    margin-bottom: 30px;
+}
+.costumer_text_about_h1{
+    color: #4caf4f;
+    margin-bottom: 10px;
+}
+.costumer_text_about_p_2{
+    margin-bottom: 30px;
+}
+.costumer_text_img{
+    align-items: center;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.costumer_text_img_1{
+    display: flex;
+    height: 40px;
+    margin-right: 40px;
+    width: 500px;
+    justify-content: space-around;
+}
+.costumer_text_img_text_button{
+    width: 150px;
+    height: 40px;
+    background-color: #4caf4f;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+}
+.costumer_text_img_text_button:hover{
+    background-color: #388e3b;
+    cursor: pointer;
+}
+.footer{
+    background-color: #263238;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_company_ul, .footer_support_ul{
+    list-style: none;
+}
+.footer_logo_img_img{
+    margin-bottom: 30px;
+}
+.footer_logo_p_2{
+    margin-bottom: 30px;
+}
+.footer_logo_img_1, .footer_logo_img_2, .footer_logo_img_3{
+    margin-right: 15px;
+}
+.footer_company_h2, .footer_support_h2{
+    margin-bottom: 15px;
+}
+.footer_company_ul, .footer_support_ul{
+    line-height: 25px;
+    font-size: 13px;
+}
